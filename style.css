@@ -1,0 +1,61 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgb(175, 143, 120);
+  }
+
+  #message-container {
+  
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  #message-container div {
+    background-color: #CCC;
+    padding: 5px;
+  }
+
+  #message-container div:nth-child(2n) {
+    background-color: #FFF;
+  }
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: rgb(200, 206, 203);
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+  }
+
+  #message-input {
+    flex-grow: 11;
+    font-size: 40px;
+    background-color: cadetblue;
+  }
+ #send-button{
+   background-color: blue;
+   color: cornsilk;
+   margin-left: 0;
+   cursor: pointer;
+ }
+ #send-button:hover{
+   background-color: darkgrey;
+   color: darkblue;
+ }
+ .chat{
+   padding: 10px;
+   height: 20vh;
+   color: rgb(89, 0, 255);
+   width: 22px;
+   display: flex;
+   justify-content: left;
+ }
